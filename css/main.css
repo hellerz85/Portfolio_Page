@@ -1,0 +1,38 @@
+.brand-logo {
+    margin-left: 20px;
+}
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: white;
+   }
+
+
+   /* label underline focus color */
+   .input-field input[type=tel]:focus {
+     border-bottom: 1px solid white;
+     box-shadow: 0 1px 0 0 #000;
+   }
+
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid white;
+     box-shadow: 0 1px 0 0 #000;
+   }
+
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: white;
+   }
+
+   /* label focus color */
+   .input-field input[type=tel]:focus + label {
+     color: white;
+   }
+
+   .card-margin {
+     margin-left: 8px;
+     margin-right: 8px;
+   }
+
+
+
